@@ -1,0 +1,13 @@
+body {
+  background: #666;
+  background-image: -webkit-radial-gradient(circle, #666, #000);
+  background-image: -moz-radial-gradient(circle, #666, #000);
+  background-image: -o-radial-gradient(circle, #666, #000);
+  background-image: radial-gradient(circle, #666, #000);
+}
+
+#logo {
+  display: block;
+  margin: 10% auto;
+  height: 50%;
+}
