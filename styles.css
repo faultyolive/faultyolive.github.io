@@ -40,10 +40,10 @@ a {
 
 .section {
   border-top: 2px solid #1a2935;
-  max-width: 700px;
   min-height: 100px;
   margin: 0 auto;
   padding: 10px;
+  text-align: center;
 }
 
 .section-title {
@@ -54,15 +54,19 @@ a {
 }
 
 .section-image {
+  display: block;
+  margin: 0 auto;
   width: auto;
   height: 200px;
 }
 
 .section-description {
+  display: inline-block;
   white-space: pre-line;
   text-align: left;
   font-size: 14px;
   padding: 10px;
+  max-width: 700px;
 }
 
 .section-video {
