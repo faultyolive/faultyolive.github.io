@@ -53,6 +53,12 @@ a {
   float: left;
 }
 
+.section-back {
+  width: 64px;
+  height: 64px;
+  float: right;
+}
+
 .section-title {
   display: block;
   text-align: left;
@@ -82,7 +88,7 @@ a {
 
 .section-image {
   display: inline-block;
-  width: 250px;
+  width: auto;
   height: 250px;
 }
 
