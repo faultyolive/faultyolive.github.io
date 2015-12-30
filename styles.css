@@ -15,23 +15,29 @@ a {
 }
 
 #header {
-
+  background: #37474F;
+  background-image: -webkit-radial-gradient(circle, #607D8B, #37474F);
+  background-image: -moz-radial-gradient(circle, #607D8B, #37474F);
+  background-image: -o-radial-gradient(circle, #607D8B, #37474F);
+  background-image: radial-gradient(circle, #607D8B, #37474F);
+  border-bottom: 2px solid #263238;
 }
 
 #logo {
   width: 30%;
   height: auto;
-  margin-top: 50px;
+  margin: 32px 0 16px 0;
+  max-width: 360px;
 }
 
 #menu {
-
+  margin-bottom: 4px;
 }
 
 .menu-item {
   width: 96px;
   height: 96px;
-  margin: 8px;
+  margin: 4px;
 }
 
 #content {
@@ -40,9 +46,9 @@ a {
 
 .section {
   max-width: 700px;
-  border-top: 2px solid #263238;
+  border-bottom: 2px solid #263238;
   min-height: 100px;
-  margin: 32px auto;
+  margin: 0 auto;
   padding: 16px;
   text-align: left;
 }
@@ -65,6 +71,7 @@ a {
   padding: 12px 0;
   margin-left: 140px;
   font-size: 30px;
+  color: #ECEFF1;
 }
 
 .section-links {
@@ -84,18 +91,25 @@ a {
   font-size: 14px;
   padding: 10px;
   margin-bottom: 20px;
+  color: #CFD8DC;
+}
+
+.section-media {
+  text-align: left;
 }
 
 .section-image {
   display: inline-block;
   width: auto;
   height: 250px;
+  margin: 8px;
 }
 
 .section-video {
   display: inline-block;
-  width: 360px; /* 16:9 = 444px */
+  width: 320px; /* 16:9 = 444px */
   height: 250px;
+  margin: 8px;
 }
 
 #footer {
@@ -103,4 +117,14 @@ a {
   padding: 20px;
   font-size: 13px;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 680px) {
+  #logo {
+    width: 200px;
+    height: auto;
+  }
+  .section-media {
+    text-align: center;
+  }
 }
