@@ -29,9 +29,9 @@ a {
 }
 
 .menu-item {
-  width: 128px;
-  height: 128px;
-  margin: 10px;
+  width: 96px;
+  height: 96px;
+  margin: 8px;
 }
 
 #content {
@@ -39,25 +39,36 @@ a {
 }
 
 .section {
-  border-top: 2px solid #1a2935;
+  max-width: 700px;
+  border-top: 2px solid #263238;
   min-height: 100px;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
+  margin: 32px auto;
+  padding: 16px;
+  text-align: left;
+}
+
+.section-icon {
+  width: 128px;
+  height: 128px;
+  float: left;
 }
 
 .section-title {
   display: block;
-  width: auto;
-  height: 200px;
-  margin: 0 auto;
+  text-align: left;
+  padding: 12px 0;
+  margin-left: 140px;
+  font-size: 30px;
 }
 
-.section-image {
+.section-links {
   display: block;
-  margin: 0 auto;
-  width: auto;
-  height: 200px;
+  margin-left: 140px;
+  text-align: left;
+}
+
+.section-badge {
+  width: 128px;
 }
 
 .section-description {
@@ -66,20 +77,19 @@ a {
   text-align: left;
   font-size: 14px;
   padding: 10px;
-  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.section-image {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
 }
 
 .section-video {
-
-}
-
-.section-links {
-
-}
-
-.section-badge {
-  width: 200px;
-  margin: 20px;
+  display: inline-block;
+  width: 360px; /* 16:9 = 444px */
+  height: 250px;
 }
 
 #footer {
