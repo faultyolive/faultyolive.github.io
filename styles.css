@@ -1,13 +1,37 @@
 body {
-  background: #666;
-  background-image: -webkit-radial-gradient(circle, #666, #000);
-  background-image: -moz-radial-gradient(circle, #666, #000);
-  background-image: -o-radial-gradient(circle, #666, #000);
-  background-image: radial-gradient(circle, #666, #000);
+  margin: 0;
+  padding: 0;
+  min-width: 100%!important;
 }
 
-#logo {
-  display: block;
-  margin: 10% auto;
-  height: 50%;
+img {
+  height: auto;
+}
+
+.content {width: 100%; max-width: 600px;}
+.header {padding: 40px 30px 20px 30px;}
+.col425 {width: 425px!important;}
+.subhead {font-size: 15px; color: #ffffff; font-family: sans-serif; letter-spacing: 10px;}
+.h1 {font-size: 33px; color: #ffffff; font-family: sans-serif; line-height: 38px; font-weight: bold;}
+.h2, .bodycopy {color: #153643; font-family: sans-serif;}
+.innerpadding {padding: 30px 30px 30px 30px;}
+.borderbottom {border-bottom: 1px solid #f2eeed;}
+.h2 {padding: 0 0 15px 0; font-size: 24px; line-height: 28px; font-weight: bold;}
+.title {font-size: 33px; color: #000000; font-family: sans-serif; line-height: 38px; font-weight: bold;}
+.bodycopy {font-size: 16px; line-height: 22px;}
+.button {text-align: center; font-size: 18px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px;}
+.button a {color: #ffffff; text-decoration: none;}
+.footer {padding: 20px 30px 15px 30px;}
+.footercopy {font-family: sans-serif; font-size: 14px; color: #ffffff;}
+.footercopy a {color: #ffffff; text-decoration: underline;}
+
+@media only screen and (min-device-width: 601px) {
+  .content {width: 600px !important;}
+  .col425 {width: 425px!important;}
+  .col380 {width: 380px!important;}
+}
+
+@media only screen and (max-width: 550px), screen and (max-device-width: 550px) {
+  body .buttonwrapper {background-color: transparent!important;}
+  body .button a {background-color: #e05443; padding: 15px 15px 13px!important; display: block!important;}
 }
